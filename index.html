@@ -7,10 +7,18 @@
 </head>
 <body>
   <style>
-    th, a.tha {
+    
+    th.headerlinks, td.headernohover, table.headertable {
       background-color: #f2f2f2;
-      color: red;
+      color: black;
+      margin: 0;
+      border: 0;
+      padding: 0;
+      border-spacing: 0;
+      
     }
+    
+    
     
     th:hover, a:hover {
       background-color: gray;
@@ -45,16 +53,18 @@
   
   </style>
   
-  <table width=100%>
+  <table width=100% class=headertable>
     <tr>
-      <th width=25% height=50px>
+      <td width=25% height=50px class=headernohover>
+      </td>
+      <th width=10% height=50px class=headerlinks>
         <a href="#home">Home</a>
       </th>
-      <th width=25%>
-        <a href="#surveys">Surveys</a>
+      <th width=10% class=headerlinks>
+        <a href="#surveys">Creations</a>
       </th>
-      <th width=25%>
-        <a href="#quizzes">Apps, Websites, and Games</a>
+      <th width=10% class=headerlinks>
+        <a href="#quizzes">Ideas</a>
       </th>
     </tr>
   </table>
@@ -64,6 +74,8 @@
   <br>
   <br>
   <br>
-  <h2>Join Team Cyber-Spec
+  <h2>Have Any Ideas?</h2>
+  <p>Do you have any ideas for apps websites or games?<br>
+    If so then <a href="cyber-spec.com/ideas.html">click here.</a>
 </body>
 </html>
